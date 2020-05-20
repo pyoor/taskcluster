@@ -123,7 +123,6 @@ func setup(t *testing.T) func() {
 			NumberOfTasksToRun:        1,
 			PrivateIP:                 net.ParseIP("87.65.43.21"),
 			ProvisionerID:             "test-provisioner",
-			PublicIP:                  net.ParseIP("12.34.56.78"),
 			PurgeCacheRootURL:         "",
 			QueueRootURL:              "",
 			Region:                    "test-worker-group",
