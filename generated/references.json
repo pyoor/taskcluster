@@ -58,7 +58,7 @@
           "type": "boolean"
         },
         "existingCapacity": {
-          "description": "Total capacity available across all workers for this worker pool",
+          "description": "Total capacity available across all workers for this worker pool that are currently \"running\"",
           "minimum": 0,
           "title": "Existing Capacity",
           "type": "integer"
